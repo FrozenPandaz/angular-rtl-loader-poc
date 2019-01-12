@@ -1,0 +1,30 @@
+{
+  "name": "rtl-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/extract-text-webpack-plugin": "^3.0.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "@types/webpack": "^4.4.22",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "raw-loader": "^1.0.0",
+    "rtlcss": "^2.4.0",
+    "sass-loader": "^7.1.0",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.23.1",
+    "ts-node": "^7.0.1"
+  }
+}

@@ -1,0 +1,51 @@
+:host {
+  #main {
+    margin-left: 200px;
+    margin-right: 0px;
+    text-align: center;
+    border: 1px solid blue;
+  }
+}
+
+a {
+}
+
+//Today
+[_ngcontent-1] #main {
+  margin-left: 200px;
+  margin-right: 0px;
+  text-align: center;
+  border: 1px solid blue;
+}
+
+// Non-Angular
+#main {
+  margin-right: 0px;
+  text-align: center;
+  border: 1px solid blue;
+}
+[dir="ltr"] #main {
+  margin-left: 200px;
+}
+[dir="rtl"] #main {
+  margin-right: 200px;
+}
+
+// Angular
+:host #main {
+  margin-right: 0px;
+  text-align: center;
+  border: 1px solid blue;
+}
+[dir="ltr"] :host #main {
+  margin-left: 200px;
+}
+[dir="rtl"] :host #main {
+  margin-right: 200px;
+}
+[dir="ltr"] a {
+  padding-left: 2px;
+}
+[dir="rtl"] a {
+  padding-right: 2px;
+}
